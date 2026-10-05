@@ -22,7 +22,7 @@ jobs:
         working-directory: ./api
         run: npm install
 
-      - name: Run npm audit
+      - name: Run SCA security audit
         working-directory: ./api
         run: npm audit --audit-level=high
 
